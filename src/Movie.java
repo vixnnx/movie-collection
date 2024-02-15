@@ -8,11 +8,11 @@ public class Movie {
     private String cast;
     private String director;
     private String overview;
-    private double runtime;
-    private double userRating;
+    private String runtime;
+    private String userRating;
 
 
-    public Movie(String m, String c, String d, String o, double r, double u) {
+    public Movie(String m, String c, String d, String o, String r, String u) {
         title = m;
         cast = c;
         director = d;
@@ -32,10 +32,10 @@ public class Movie {
     public String getOverview() {
         return overview;
     }
-    public double getRuntime() {
+    public String getRuntime() {
         return runtime;
     }
-    public double getUserRating() {
+    public String getUserRating() {
         return userRating;
     }
 
