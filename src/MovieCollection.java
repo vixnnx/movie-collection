@@ -175,6 +175,7 @@ public class MovieCollection {
 
 
 
+
     private void printInfo(int idx) {
         System.out.println();
         System.out.println("Title: " + movies.get(idx).getTitle());
